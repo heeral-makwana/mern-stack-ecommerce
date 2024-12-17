@@ -6,7 +6,7 @@ const ProductAPI = () => {
     const [products,setProducts]=useState([])
 
     const getProducts = async()=> {
-        const res = await axios.get('/api/products')
+        const res = await axios.get('https://e-commerce-back-8kja.onrender.com/api/products')
         setProducts(res.data.products)
     }
 

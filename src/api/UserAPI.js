@@ -10,7 +10,7 @@ const UserAPI = (token) => {
         if (token) {
             const getUser = async () => {
                 try {
-                    const res = await axios.get('/user/infor', {
+                    const res = await axios.get('https://e-commerce-back-8kja.onrender.com/user/infor', {
                         headers: { Authorization: token }
                     });
 

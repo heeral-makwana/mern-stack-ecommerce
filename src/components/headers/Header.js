@@ -15,7 +15,7 @@ const Header = () => {
 
 
     const logoutUser = async() => {
-        await axios.get('/user/logout')
+        await axios.get('https://e-commerce-back-8kja.onrender.com/user/logout')
 
         localStorage.clear()
         setIsAdmin(false)
