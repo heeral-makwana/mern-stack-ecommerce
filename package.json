@@ -40,7 +40,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000/",
+  "proxy": "https://e-commerce-back-8kja.onrender.com",
   "homepage": "https://heeral-makwana.github.io/mern-stack-ecommerce",
   "devDependencies": {
     "gh-pages": "^6.2.0"
